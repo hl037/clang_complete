@@ -205,7 +205,7 @@ Set sources for user options passed to clang. Available sources are:
   output this information. clang_complete will search upwards from where vi
   was started for a database named 'compile_commands.json'.
   Note : compilation databases can only be used when 'g:clang_use_library'
-  equals 1 and the clang libraries are recent enough (clang>=3.2). The 
+  equals 1 and the clang libraries are recent enough (clang>=3.2). The
   compilation database only contains information for the C/C++ sources files,
   so when editing a header, clang_complete will reuse the compilation
   arguments from the last file found in the database.
@@ -352,7 +352,7 @@ If you have ultisnips installed, you can use
 let g:clang_snippets = 1
 let g:clang_snippets_engine = 'ultisnips'
 
-instead. After a completetion you can use <Tab> in normal mode to jump to the
+instead. After a completion you can use <Tab> in normal mode to jump to the
 next parameter.
 
 *) Can I configure clang_complete to insert the text automatically when there
